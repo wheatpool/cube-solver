@@ -1,18 +1,15 @@
 package com.mycom.puzzle.cube.service;
 
-import static org.junit.Assert.assertEquals;
-import static org.junit.Assert.assertNotNull;
-import static org.junit.Assert.assertTrue;
+import static org.junit.jupiter.api.Assertions.*;
 
 import java.io.ByteArrayOutputStream;
 import java.io.PrintStream;
 import java.util.Arrays;
 import java.util.List;
 
-import org.junit.Test;
-
 import com.mycom.puzzle.cube.domain.Cube;
 import com.mycom.puzzle.cube.domain.Piece;
+import org.junit.jupiter.api.Test;
 
 public class CubeSolverTest {
 
